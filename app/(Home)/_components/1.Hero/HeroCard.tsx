@@ -8,7 +8,7 @@ export const HeroCard = ({ title, image }: ICardProps) => {
   return (
     <div className="flex w-full h-full">
       {title && (
-        <div className="bg-muted-foreground/30 px-4 py-3 rounded-lg backdrop-blur-3xl z-30">
+        <div className="w-max bg-muted-foreground/30 px-4 py-3 rounded-lg backdrop-blur-3xl z-30">
           <h1 className="text-md">{title}</h1>
         </div>
       )}
